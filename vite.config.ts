@@ -12,6 +12,7 @@ export default defineConfig({
         tsconfigPaths(),
         netlifyPlugin(),
     ],
+    base:"/deployement/",
     resolve: {
         alias: {
             '@styles': path.resolve(__dirname, './src/styles/'),
